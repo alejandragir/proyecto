@@ -1,0 +1,82 @@
+/*selector de etiqueta*/
+/*selector*/
+body {
+  background:#5EE2AC;
+}
+
+h1 {
+    color: green;
+    font-size: 40px;
+    text-align: center;
+    font-style: oblique;
+    font-family: fantasy;
+    text-shadow: 2px 2px 5px red;
+
+}
+
+a {
+  font-size: 18px;/*tamaño texto*/
+  color:#fff; /*color texto*/
+  text-decoration: none;/*quita subrayado*/
+  padding: 5px 5px;/*margen interno*/
+  margin: 7px 6px 5px 0px; /*margen lados*/
+  background: #3BA7E1;
+
+}
+
+a:hover {
+  text-decoration: underline;/*subraya texto al pasar maus*/
+  background:#000;/*fondo color negro al pasar el maus*/
+  color:#fff; /*fuente color blanco al pasar el maus*/
+}
+a:active {
+  background: #ff8000;/*cambia de color al dar click*/
+}
+
+
+header {
+background:#fff; /*color fondo*/
+width:100%;/*anchura */
+max-width: 1080px; /*anchura pixeles*/
+margin: auto; /*centra el contenido*/
+}
+
+header nav {
+  background: #D6F3EF;
+ overflow: hidden; /*ocultar contenido, limpia el float left */
+}
+header nav ul {
+  list-style: none; /*borra los puntos de la lista*/
+}
+header nav ul li {
+  float:left;
+}
+
+header nav ul li a {
+  padding: 10px 20px;/*lados*/
+  display: block; /*arriba y abajo*/
+
+}
+/*----------------------------------------------*/
+
+
+
+
+
+table {
+  background-color: white; /*color del fondo de tabla*/
+  text-align: left;
+  border-collapse: collapse; /*eliminar espacio entre bordes*/
+
+}
+/*celdas*/
+th, td {
+  border: solid 1px black;
+  padding: 3;/*espacio interno*/
+}
+/*encabezado tabla*/
+thead {
+  background-color: #246355; /*color fondo*/
+  border-bottom: solid 5px; /*borde de encabezado*/
+  color: white;/*color texto*/
+}
